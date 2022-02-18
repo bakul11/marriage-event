@@ -1,0 +1,178 @@
+/*************************
+ Typography Start Here
+ ************************/
+
+body{
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+h2{
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: rgba(0, 0, 0, 0.774);
+}
+h3{
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: rgba(0, 0, 0, 0.774);
+}
+p{
+    font-size: 18px;
+    font-weight: 400;
+     font-family: 'Poppins', sans-serif;
+}
+.btn-light{
+    padding: 10px 20px;
+    font-weight: 700;
+}
+.btn-info {
+    background: #737bcb4a;
+    font-weight: 700;
+    border: 0;
+     padding: 10px 20px;
+}
+ul{
+    padding: 0;
+    margin: 0;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: rgba(26, 21, 21, 0.664);
+    font-weight: 700;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+span{
+    color: orange;
+}
+
+
+ /*************************
+ Typography End Here
+ ************************/
+
+
+
+
+ /*********************
+ Slider Section Start
+ ********************/
+
+ .carousel-item{
+     position: relative;
+ }
+ .carousel-item::before{
+     content:'';
+     position: absolute;
+     left: 0;
+     top: 0;
+     right: 0;
+     width: 100%;
+     height: 100%;
+     background: rgba(5, 5, 5, 0.7);
+ }
+.carousel-item img{
+    max-width: 100%;
+    height:600px;
+}
+.carousel-caption{
+    font-weight: 900;
+    color: white;
+    z-index: 999999;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+/*********************
+ Slider Section End
+ ********************/
+
+
+
+
+/*********************
+ Package Section End
+ ********************/
+ .package-extra{
+     position: relative;
+     background: #3F87F5;
+     border-radius:30px;
+    
+ }
+ .package-extra .hot{
+    right: -20px;
+    top: -20px;
+    font-size: 15px;
+    border-radius: 20px;
+ }
+/*********************
+ Package Section End
+ ********************/
+
+
+
+
+
+/*************************
+ Mix Coding Start
+ ************************/
+
+.services-section{
+    margin-top: 100px;
+}
+.package-section{
+    margin-top: 170px;
+}
+.question-section{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.accordion-header .accordion-button{
+    font-weight: 500;
+    font-size: 18px;
+}
+.footer-section{
+    background: #0B0D17;
+    padding: 40px 80px 20px 80px;
+}
+/* #toast{
+    margin-top: 100px;
+    margin-bottom: 100px;
+} */
+/*************************
+ Mix Coding End
+ ************************/
+
+
+
+
+
+
+
+
+/**************************************************************
+                    Media Query Style Start
+ *************************************************************/
+
+@media(max-width :891px){
+    .carousel-caption{
+        width: 100%;
+
+    }
+}
+
+
+/**************************************************************
+                    Media Query Style End
+ *************************************************************/
